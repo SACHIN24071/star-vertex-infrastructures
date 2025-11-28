@@ -1,0 +1,80 @@
+.projects-table {
+  padding: 130px 40px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.projects-table.ongoing {
+  background: #f3f7ff;
+}
+
+.projects-table h1 {
+  font-size: 2.5rem;
+  color: #0a1a2f;
+   margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.projects-table h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #007bff;
+  margin: 12px auto 0;
+  border-radius: 3px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+thead {
+  background: #0a1a2f;
+  color: #fff;
+}
+
+thead th {
+  padding: 14px;
+  font-size: 1.1rem;
+}
+
+tbody td {
+  padding: 12px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background: #eef4ff;
+  transition: 0.3s;
+}
+
+.remarks {
+  margin-top: 15px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  thead th {
+    font-size: 0.9rem;
+  }
+
+  tbody td {
+    font-size: 0.9rem;
+  }
+}
