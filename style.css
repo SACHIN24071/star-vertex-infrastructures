@@ -660,5 +660,33 @@ body.popup-active {
         font-size: 0.95rem;
     }
 }
+/* For mobile screens */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+.container {
+    width: 1200px;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 
